@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 50px;
+    background-color: #fdf3e1;
+    background-image: radial-gradient(#ccc 2px, transparent 2px); /*creates an array of dots in the bg*/
+    background-size: 45px 45px; /*this defines the dist. between the dots*/
+}
+
+.rose {
+    position: absolute;   /* stays in place even when scrolling */
+    top: -60px;
+    right: -20px;
+    width: 150px;       /* adjust size as needed */
+    height: auto;
+    transform: rotate(-50deg);
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 16.5px;
+    color: #cdffd3;
+}
+
+.emoji {
+    font-size: 40px;
+    margin-top: 4px;
+}
+
+.label {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    text-align: center;
+    color: #cdffd3;
+    margin-bottom: 4px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
+
+.buttons button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px, 0;
+    width: 120px;
+    font-size: 28px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.1s, background-color 0.2s;
+    background-color: #288e39;
+}
+
+.buttons button:hover {
+    transform: scale(1.1);
+    background-color: #267235;
+}
+
+.output {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.stuffs {
+    background-color: #1c5527;
+    margin: 75px;
+    padding: 30px 50px;
+    box-shadow: 0 4px 10px #288e39;
+    border-radius: 25px;
+    display: inline-block;
+    position: relative;
+}
